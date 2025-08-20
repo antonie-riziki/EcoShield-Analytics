@@ -6,6 +6,7 @@ africastalking
 openai
 seaborn
 requests
+scikit-learn
 geopy
 google-generativeai
 langchain
@@ -26,5 +27,6 @@ altair
 pillow
 
 reportlab
+
 
 
