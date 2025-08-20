@@ -19,8 +19,8 @@ pypdf
 prophet
 plotly
 st-social-media-links
-pickle
 nominatim
 altair
 pillow
+
 reportlab
