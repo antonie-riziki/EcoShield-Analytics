@@ -4,6 +4,7 @@ streamlit_option_menu
 streamlit_chat
 africastalking
 openai
+seaborn
 requests
 google-generativeai
 langchain
@@ -24,3 +25,4 @@ altair
 pillow
 
 reportlab
+
