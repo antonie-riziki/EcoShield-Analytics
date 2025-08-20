@@ -6,6 +6,7 @@ africastalking
 openai
 seaborn
 requests
+geopy
 google-generativeai
 langchain
 langchain-community
@@ -25,4 +26,5 @@ altair
 pillow
 
 reportlab
+
 
