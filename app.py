@@ -23,7 +23,7 @@ pg = st.navigation([reg_page, home_page, dashboard_page, automation_page, chatbo
 
 st.set_page_config(
     page_title="EcoShield Analytics",
-    page_icon="🗺️",
+    page_icon="🌾",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
@@ -38,4 +38,5 @@ st.set_page_config(
 )
 
 pg.run()
+
 
