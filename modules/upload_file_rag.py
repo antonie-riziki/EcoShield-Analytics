@@ -95,7 +95,7 @@ PROMPT_TEMPLATE = """
       - Maintain a professional, concise, and precise tone, as if briefing executives or policymakers.
       - Avoid speculation or unsupported assumptions; only use evidence from the dataset or computations.
       - Keep answers short, structured, and focused on actionable insights.
-      - Always conclude with 2–3 relevant analytical questions that a user is most likely to ask next, based strictly on the dataset at hand.
+      - Always conclude with 2–3 relevant analytical and policy making questions that a user is most likely to ask next, based strictly on the dataset at hand.
 
       {context}
 
@@ -155,4 +155,5 @@ def query_system(query: str, qa_chain):
     return f"EchoShield Bot 🌍: {result['result']}" #\nSources: {[s.metadata['source'] for s in result['source_documents']]}"
   except Exception as e:
     return f"Error processing query: {e}"
+
 
