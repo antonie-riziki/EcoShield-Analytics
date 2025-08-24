@@ -272,7 +272,7 @@ with col[1]:
     	lat="lat",
     	lon="lon",
     	size="mean_temperature",         
-    	color="mean_temperature",        
+    	color=selected_color_theme,        
     	hover_name="region",             
     	animation_frame="year",          
     	mapbox_style="open-street-map",
@@ -356,4 +356,5 @@ rolling_avg_for_mean_temp(df, selected_region)
 
 
 load_prophet_model(df)
+
 
