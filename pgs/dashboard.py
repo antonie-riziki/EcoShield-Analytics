@@ -268,7 +268,7 @@ with col[1]:
     # ============================================================== #
 
     fig = px.scatter_mapbox(
-    	df.head(100000),
+    	df,
     	lat="lat",
     	lon="lon",
     	size="mean_temperature",         
@@ -356,3 +356,4 @@ rolling_avg_for_mean_temp(df, selected_region)
 
 
 load_prophet_model(df)
+
